@@ -29,9 +29,6 @@ jobs:
           committer_message: "chore(metrics): update metrics"
 
           # Plugins
-          plugin_achievements: yes
-          plugin_achievements_only: "docker,github-sponsor,maintainer"
-
           plugin_calendar: yes
           plugin_calendar_limit: 1
 
@@ -42,10 +39,8 @@ jobs:
           plugin_lines: yes
 
           plugin_repositories: yes
-          plugin_repositories_pinned: "xscriptor/vscode,xscriptor/terminal,xscriptor/jetbrains"
+          plugin_repositories_limit: 6
           plugin_repositories_starred: no
-
-          plugin_traffic: yes
 
       # Generate additional metrics variations
       - uses: lowlighter/metrics@latest
