@@ -1,10 +1,10 @@
 # patryk
 
-mostly breaking things in c# and fixing them in c#, c and c++ :)
+mostly breaking things in c# and fixing them in c#, c, c++, ts / js, web trio ( html, css js ) and php. :)
 
 - interested in security, logic flaws and clean architecture.
 - if it has a rate limit, i'll probably find it.
-- learning typescript and javascript ( 85% done )
+- 
 
 ---
 
